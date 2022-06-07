@@ -4,7 +4,7 @@
 	font-family: 'Josefin Sans', sans-serif;
 	box-sizing: border-box;
 }
-.hero{
+#hero{
 	height: 100vh;
 	width: 100%;
     background-color: black;
@@ -105,17 +105,17 @@ h4{
 	top: 6px;
 	right: 6px;
 }
-.about{
+#about{
 	width: 100%;
 	padding: 100px 0px;
 	background-color: #191919;
 }
-.about img{
+#about img{
 	height: auto;
 	width: 450px;
 	align-items: left;
 }
-.about-text{
+#about-text{
 	width: 550px;
 	text-align: justify;
 }
@@ -162,7 +162,7 @@ justify-content: space-around;
 	border: 2px solid #3ded97;
 	cursor: pointer;
 }
-.project{
+#project{
 	background-color: black;
 	width: 100%;
 	padding: 100px 0px;
@@ -181,7 +181,7 @@ text-align: center;
 	min-height: 400px;
 }
 .card{
-	height: 500px;
+	height: 550px;
 	width: 350px;
 	padding: 20px 35px;
 	background: #191919;
@@ -223,22 +223,59 @@ h5{
 	border: 2px solid #3ded97;
 	cursor: pointer;
 }
-.contact-me{
+/* style for skill starts*/
+#skill{
+	background-color: rgb(36, 35, 35);
 	width: 100%;
-	height: 290px;
+	padding: 70px 0px;
+}
+.title h2{
+	color: white;
+	font-size: 70px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.all-box{
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+}
+.box1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 50px;
+	flex-basis: calc(50%-1rem);
+}
+#card{
+	height: 100px;
+	width: 150px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+/* styling for skill ends*/ 
+#contact-me{
+	width: 100%;
+	height: 320px;
 	background: #191919;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
 }
-.contact-me p{
+#contact-me p{
 color: white;
 font-size: 30px;
 font-weight: bold;
 margin-bottom: 25px;
 }
-.contact-me .button-two{
+#contact-me .button-two{
 	background-color: #3ded97;
 	color: white;
 	text-decoration: none;
@@ -248,7 +285,7 @@ margin-bottom: 25px;
 	border-radius: 30px;
 	transition: .4s;
 }
-.contact-me .button-two:hover{
+#contact-me .button-two:hover{
     background-color: transparent;
 	border: 2px solid #3ded97;
 	cursor: pointer;
@@ -256,7 +293,7 @@ margin-bottom: 25px;
 footer{
 	position: relative;
 	width: 100%;
-	height: 400px;
+	height: 350px;
 	background: #101010;
 	display: flex;
 	flex-direction: column;
